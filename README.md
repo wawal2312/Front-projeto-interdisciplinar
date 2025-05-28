@@ -1,11 +1,12 @@
 <?php
 session_start();
-
+include("header.php");
+include("text.php");
 ?>
 
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
+<head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="projeto.css">
@@ -13,12 +14,17 @@ session_start();
     <link rel="stylesheet" href="npm i bootstrap/@5.3.6">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css">
 </head>
-<body>
-    <div class="d-grid gap-2 d-md-block">
-   <button type="button" class="btn btn-link">Home</button>
-   <button type="button" class="btn btn-link">O que é o autismo?</button>
-   <button type="button" class="btn btn-link">Quem somos?</button>
-   <button type="button" class="btn btn-link">Nosso trabalho</button>
-   </div>
-</body>
+ <style>
+        body {
+            background-color: aquamarine; 
+        }
+        .half-gradient-bg {
+            background: linear-gradient(to right, #ADD8E6 50%, #FFD700 50%);
+            min-height: 100vh; 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #333; }
+    </style>
 </html>
+
