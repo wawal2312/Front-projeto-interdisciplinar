@@ -1,5 +1,5 @@
 <?php
-echo "O que é o autismo?";
+echo "Quem somos";
 ?>
 
 <!DOCTYPE html>
