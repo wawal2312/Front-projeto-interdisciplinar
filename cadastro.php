@@ -12,7 +12,7 @@ echo "Você está na página de cadastro!";
 
 <?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $nome = $_POST['nome'];
+    $nome = $_POST['nome completo'];
     $cpf = $_POST['cpf'];
     $data_nascimento = $_POST['data_nascimento'];
     $telefone = $_POST['telefone'];
